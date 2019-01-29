@@ -1,0 +1,34 @@
+{
+  "name": "pure_function",
+  "version": "1.0.0",
+  "description": "\"pure_function\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest .test.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shustrila/pure_function.git"
+  },
+  "keywords": [
+    "tests",
+    "jest"
+  ],
+  "author": "Alexandr Maxalov (Shustrila)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shustrila/pure_function/issues"
+  },
+  "homepage": "https://github.com/Shustrila/pure_function#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5"
+  }
+}
